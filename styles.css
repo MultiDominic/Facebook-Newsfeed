@@ -1,0 +1,1197 @@
+* {
+    box-sizing: border-box;
+  }
+  
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+  
+.clear {
+    clear: both;
+}
+  
+
+header {
+    height: 100px;
+    clear: both;
+}
+  
+section {
+    height: 500px;
+    width: 25%;
+    float: left;
+}
+
+.leftsidebar {
+    float: left;
+    height: 800px;
+    width: 10%;
+    background-color: #eaeef7;
+    border-right: 0.25px solid grey;
+    border-bottom: 0.25px solid grey;
+
+}
+
+
+.main {
+    float: left;
+    height: 800px;
+    width: 50%;
+    border-right: 0.25px solid grey;
+    border-bottom: 0.25px solid grey;
+}
+
+.events {
+    float: left;
+    height: 800px;
+    width: 30%;
+    border-left: 0.25px solid grey;
+    border-bottom: 0.25px solid grey;
+}
+
+.rightsidebar {
+    float: left;
+    height: 800px;
+    width: 10%;
+    background-color: #eaeef7;
+    border-left: 0.25px solid grey;
+    border-bottom: 0.25px solid grey;
+}
+
+.searchbar {
+    height: 100px;
+    float: left;
+    width: 50%;
+    background-color: rgb(66, 103, 178);
+}
+
+.tabs {
+    height: 100px;
+    float: left;
+    width: 25%;
+    background-color: rgb(66, 103, 178);
+}
+
+.icons {
+    height: 100px;
+    float: left;
+    width: 25%;
+    background-color: rgb(66, 103, 178);
+}
+
+.searchbar>img {
+    float: left;
+    margin-left: 40px;
+    margin-right: 20px;
+    margin-top: 50px;
+}
+
+.searchbar form {
+    float: left;
+    background-color: white;
+    width: 800px;
+    height: 30px;
+    margin-top: 50px;
+}
+
+.searchbar input {
+    border: none;
+    outline: none;
+    font-size: 20px;
+    width: 750px;
+    padding-top: 4px;
+    float: left;
+}
+
+
+.searchbar button {
+    background: rgb(235, 235, 235);
+    padding: 4px 8px 1px 2px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    float: right;
+}
+
+.searchbar button img {
+    height: 22px;
+    width: 24px;
+    margin-left: 10px;
+}
+
+.tabs img {
+    float: left;
+    margin-top: -4px;
+    margin-left: 20px;
+    margin-right: 4px;
+}
+
+.tabs a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    float: left;
+    margin-top: 50px;
+    margin-left: 24px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.icons a {
+    float: left;
+    margin-top: 44px;
+    margin-left: 26px;
+}
+
+.profile {
+    width: 100%;
+    height: 100px;
+    float: left;
+}
+
+.quicknav {
+    width: 100%;
+    float: left;
+    height: 150px;
+}
+
+.shortcuts {
+    width: 100%;
+    float: left;
+    height: 274px;
+}
+
+.explore {
+    width: 100%;
+    float: left;
+    height: 274px;
+}
+
+.profile img {
+    float: left;
+    margin-top: 30px;
+    margin-left: 18px;
+    height: 40px;
+    width: 40px;
+}
+
+.profile a {
+    font-family: 'Roboto', sans-serif;
+    float: left;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    margin-left: 14px;
+    margin-top: 38px;
+    font-weight: 500;
+}
+
+.quicknav img {
+    float: left;
+    height: 25px;
+    width: 25px;
+    margin-left: 20px;
+    margin-right: 14px;
+    margin-top: 8px;
+}
+
+.quicknav a {
+    float: left;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    margin-left: 10px;
+    margin-top: 14px;
+    margin-right: 20px;
+}
+
+.shortcuts span {
+    font-family: 'Roboto', sans-serif;
+    float: left;
+    color: grey;
+    font-size: 14px;
+    font-weight: 700;
+    width: 90%;
+    margin-left: 8px;
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
+
+.shortcuts img {
+    float: left;
+    height: 25px;
+    width: 25px;
+    margin-left: 8px;
+    margin-bottom: 16px;
+}
+
+.shortcuts a {
+    font-family: 'Roboto', sans-serif;
+    float: left;
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+    margin-top: -34px;
+    width: 80%;
+}
+
+.shortcuts span a {
+    text-decoration: none;
+    color: #0000EE;
+    font-family: 'Roboto', sans-serif;
+    float: left;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.explore span {
+    font-family: 'Roboto', sans-serif;
+    float: left;
+    color: grey;
+    font-size: 14px;
+    font-weight: 700;
+    width: 90%;
+    margin-left: 8px;
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
+
+.explore img {
+    float: left;
+    height: 25px;
+    width: 25px;
+    margin-left: 8px;
+    margin-bottom: 16px;
+}
+
+.explore a {
+    font-family: 'Roboto', sans-serif;
+    float: left;
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+    margin-top: -34px;
+    width: 80%;
+}
+
+.explore span a {
+    text-decoration: none;
+    color: #0000EE;
+    font-family: 'Roboto', sans-serif;
+    float: left;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.createpost {
+    float: left;
+    height: 200px;
+    width: 100%;
+    border-bottom: 0.25px solid grey;
+}
+
+.stories {
+    float: left;
+    height: 300px;
+    width: 100%;
+    border-bottom: 0.25px solid grey;
+}
+
+.posts {
+    float: left;
+    height: 300px;
+    width: 100%;
+}
+
+.create {
+    float: left;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(240, 238, 238);
+    border-bottom: 0.25px solid grey;
+}
+
+.post {
+    float: left;
+    height: 100px;
+    width: 100%;
+    border-bottom: 0.25px solid grey;
+}
+
+.attach {
+    float: left;
+    height: 50px;
+    width: 100%;
+}
+
+.create span {
+    float: left;
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 10px;
+    margin-top: 12px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.post img {
+    float: left;
+    height: 50px;
+    width: 50px;
+    margin-left: 20px;
+    margin-top: 14px;
+    margin-right: 16px;
+}
+
+.post form {
+    float: left;
+}
+
+.post form input {
+    float: left;
+    height: 99px;
+    width: 851px;
+    border: none;
+}
+
+.attach button {
+    float: left;
+    border: none;
+    margin-left: 100px;
+    margin-top: 6px;
+    padding: 2px 6px 2px 4px;
+}
+
+.attach img {
+    float: left;
+    margin-top: -8px;
+    margin-right: 10px;
+}
+
+.attach button a {
+    float: left;
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    margin-top: 8px;
+}
+
+.dots a img {
+    margin-left: 12px;
+}
+
+.topstories {
+    float: left;
+    width: 100%;
+    height: 50px;
+}
+
+.storyposts {
+    float: left;
+    width: 100%;
+    height: 250px;
+}
+
+.topstories span {
+    float: left;
+    font-family: 'Roboto', sans-serif;
+    color: grey;
+    font-weight: 700;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.topstories a {
+    float: right;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: #0000EE;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.storyposts img {
+    float: left;
+    height: 240px;
+    width: 22%;
+    margin-left: 24px;
+}
+
+.userprofile {
+    float: left;
+    width: 100%;
+    height: 50px;
+}
+
+.postcontent {
+    float: left;
+    width: 100%;
+    height: 250px;
+}
+
+.posts a {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    font-weight: 500;
+    width: 100%;
+    float: left;
+    margin-left: 70px;
+    margin-top: -32px;
+    margin-bottom: 20px;
+}
+
+.star {
+    float: right;
+    width: 16px;
+    margin-right: 34px;
+    margin-top: -58px;
+}
+
+.more {
+    float: right;
+    width: 18px;
+    margin-right: 8px;
+    margin-top: -58px;
+}
+
+.postprofile {
+    float: left;
+    margin-top: 8px;
+    margin-left: 14px;
+    margin-right: 10px;
+}
+
+.earth {
+    width: 18px;
+    margin-top: 10px;
+}
+
+.mins {
+    color: gray;
+    font-size: 14px;
+}
+
+.jane {
+    color: #0000EE;
+    font-size: 16px;
+}
+
+.postcontent p {
+    float: left;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 18px;
+}
+
+.week {
+    float: left;
+    width: 100%;
+    height: 100px;
+    border-bottom: 0.25px solid grey;
+}
+
+.pages {
+    float: left;
+    width: 100%;
+    height: 500px;
+    border-bottom: 0.25px solid grey;
+}
+
+.listings {
+    float: left;
+    width: 100%;
+    height: 200px;
+}
+
+.week img {
+    float: left;
+    height: 25px;
+    width: 25px;
+    margin-left: 40px;
+    margin-top: 13px;
+}
+
+.week a {
+    float: left;
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    color: #0000EE;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.week span {
+    float: left;
+    font-family: 'Roboto', sans-serif;
+    color: grey;
+    font-size: 28px;
+    margin-top: 10px;
+}
+
+.thisweek {
+    margin-left: 10px;
+    margin-right: 230px;
+}
+
+.yourpages {
+    float: left;
+    width: 100%;
+    height: 50px;
+    border-bottom: 0.25px solid grey;
+
+}
+
+.yourinfo {
+    float: left;
+    width: 100%;
+    height: 150px;
+    border-bottom: 0.25px solid grey;
+
+}
+
+.pagetabs {
+    float: left;
+    width: 100%;
+    height: 100px;
+    border-bottom: 0.25px solid grey;
+
+}
+
+.pagestats {
+    float: left;
+    width: 100%;
+    height: 150px;
+}
+
+.pagepromos {
+    float: left;
+    width: 100%;
+    height: 50px;
+    border-top: 0.25px solid grey;
+}
+
+.yourpages a {
+    float: left;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: grey;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 300px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.yourpages a img {
+    float: right;
+    margin-left: 10px;
+    margin-top: -2px;
+}
+
+.yourpages img {
+    margin-top: 10px;
+}
+
+.profilepicuser{
+    float: left;
+    height: 100px;
+    width: 100px;
+    margin-left: 20px;
+    margin-top: 16px;
+}
+
+.yourinfo img {
+    float: left;
+    margin-right: 8px;
+}
+
+.yourinfo a {
+    float: left;
+    text-decoration: none;
+    color: grey;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-right: 200px;
+}
+
+.yourinfo span {
+    float: left;
+    font-size: 30px;
+    color: grey;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-right: 200px;
+}
+
+.pagetabs a {
+    font-family: 'Roboto', sans-serif;
+    color: grey;
+    font-size: 16px;
+    float: left;
+    font-weight: 500;
+    text-decoration: none;
+    width: 25%;
+    height: 50px;
+    text-align: center;
+    margin-top: 24px;
+}
+
+.pagetabs img {
+    float: left;
+    margin-left: 58px;
+    margin-right: 60px;
+    margin-bottom: 8px;
+}
+
+
+.stats {
+    float: left;
+    height: 40%;
+    width: 100%;
+}
+
+.likes {
+    float: left;
+    height: 60%;
+    width: 100%;
+}
+
+.stats button {
+    float: left;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 50px;
+    padding: 10px 36px 10px 36px;
+    margin-top: 6px;
+}
+
+.likes span {
+    float: left;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: black;
+    font-size: 38px;
+    width: 100%;
+    text-align: center;
+    margin-top: 2px;
+}
+
+.likes p {
+    float: left;
+    font-family: 'Roboto', sans-serif;
+    color: grey;
+    font-weight: 500;
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.pagepromos button {
+    float: left;
+    padding: 2px 8px 2px 150px;
+    margin-top: 4px;
+    margin-left:  120px;
+}
+
+.pagepromos img {
+    float: left;
+}
+
+.pagepromos span {
+    float: left;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 6px;
+    margin-left: -50px;
+    margin-right: 20px;
+    height: 100%;
+}
+
+.megaphone {
+    float: left;
+    margin-top: 4px;
+    margin-left: -80px;
+}
+
+.downarrowpromo {
+    float: left;
+    margin-left: 30px;
+    padding-left: 4px;
+    margin-top: -1px;
+    border-left: 1px solid black;
+}
+
+.listtitle {
+    float: left;
+    width: 100%;
+    height: 30px;
+}
+
+.listimgs {
+    float: left;
+    width: 100%;
+    height: 170px;
+}
+
+.listtitle img {
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: -4px;
+}
+
+.listtitle a {
+    float: left;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: grey;
+    font-weight: 500;
+    margin-top: 6px;
+}
+
+.listimgs img {
+    float: left;
+    margin-top: 4px;
+    margin-left: 20px;
+}
+
+.instantgames {
+    float: left;
+    width: 100%;
+    height: 100px;
+}
+
+.friendgames {
+    float: left;
+    width: 100%;
+    height: 100px;
+}
+
+.yourpagesr {
+    float: left;
+    width: 100%;
+    height: 150px;
+}
+
+.contacts {
+    float: left;
+    width: 100%;
+    height: 200px;
+}
+
+.groupchats {
+    float: left;
+    width: 100%;
+    height: 200px;
+    border-bottom: 0.25px solid grey;
+}
+
+.searchright {
+    float: left;
+    width: 100%;
+    height: 50px;
+}
+
+.instantgtitle {
+    float: left;
+    width: 100%;
+    height: 20px;
+}
+
+.games {
+    float: left;
+    width: 100%;
+    height: 80px;
+    border-bottom: 0.25px solid grey;
+}
+
+.instantgtitle span {
+    float: left;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    color: grey;
+    margin-left: 4px;
+    margin-top: 3px;
+}
+
+.instantgtitle a {
+    text-decoration: none;
+    float: right;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+    color: grey;
+    margin-right: 4px;
+    margin-top: 3px;
+}
+
+.games img {
+    float: left;
+    margin-top: 20px;
+    height: 38px;
+    width: 38px;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
+.arrows img {
+    float: left;
+    height: 32px;
+    width: 32px;
+    margin-left: -2px;
+    margin-top: 24px;
+}
+
+.larrows img {
+    margin-left: 2px;
+    margin-right: -4px;
+    margin-top: 24px;
+    float: left;
+    height: 32px;
+    width: 32px;
+}
+
+.pagestitle {
+    float: left;
+    width: 100%;
+    height: 15px;
+}
+
+.page1 {
+    float: left;
+    width: 100%;
+    height: 45px;
+}
+
+.page2 {
+    float: left;
+    width: 100%;
+    height: 45px;
+}
+
+.page3 {
+    float: left;
+    width: 100%;
+    height: 45px;
+}
+
+.pagestitle span {
+    float: left;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    color: grey;
+    margin-left: 4px;
+    margin-top: 1px;
+}
+
+.pagestitle a {
+    float: right;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+    color: grey;
+    margin-right: 4px;
+    margin-top: 1px;
+}
+
+.page1 img {
+    float: left;
+    margin-top: 4px;
+    margin-left: 10px;
+}
+
+.page1 a {
+    float: left;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.page2 img {
+    float: left;
+    margin-top: 4px;
+    margin-left: 10px;
+}
+
+.page2 a {
+    float: left;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.page3 img {
+    float: left;
+    margin-top: 4px;
+    margin-left: 10px;
+}
+
+.page3 a {
+    float: left;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.contactstitle {
+    float: left;
+    width: 100%;
+    height: 15px;
+}
+
+.contact1 {
+    float: left;
+    width: 100%;
+    height: 46.25px;
+}
+
+.contact2 {
+    float: left;
+    width: 100%;
+    height: 46.25px;
+}
+
+.contact3 {
+    float: left;
+    width: 100%;
+    height: 46.25px;
+}
+
+.contact4 {
+    float: left;
+    width: 100%;
+    height: 46.25px;
+}
+
+.contactstitle span {
+    float: left;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    color: grey;
+    margin-left: 4px;
+    margin-top: 1px;
+}
+
+.contact1 img {
+    float: left;
+    margin-top: 4px;
+    margin-left: 10px;
+}
+
+.contact1 a {
+    float: left;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.contact2 img {
+    float: left;
+    margin-top: 4px;
+    margin-left: 10px;
+}
+
+.contact2 a {
+    float: left;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.contact3 img {
+    float: left;
+    margin-top: 4px;
+    margin-left: 10px;
+}
+
+.contact3 a {
+    float: left;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.contact4 img {
+    float: left;
+    margin-top: 4px;
+    margin-left: 10px;
+}
+
+.contact4 a {
+    float: left;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.grouptitle {
+    float: left;
+    width: 100%;
+    height: 15px;
+}
+
+.group1 {
+    float: left;
+    width: 100%;
+    height: 46.25px;
+}
+
+.group2 {
+    float: left;
+    width: 100%;
+    height: 46.25px;
+}
+
+.group3 {
+    float: left;
+    width: 100%;
+    height: 46.25px;
+}
+
+.group4 {
+    float: left;
+    width: 100%;
+    height: 46.25px;
+}
+
+
+.grouptitle span {
+    float: left;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    color: grey;
+    margin-left: 4px;
+    margin-top: 1px;
+}
+
+.group1 img {
+    float: left;
+    margin-top: 4px;
+    margin-left: 10px;
+}
+
+.group1 a {
+    float: left;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.group2 img {
+    float: left;
+    margin-top: 4px;
+    margin-left: 10px;
+}
+
+.group2 a {
+    float: left;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.group3 img {
+    float: left;
+    margin-top: 4px;
+    margin-left: 10px;
+}
+
+.group3 a {
+    float: left;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.group4 img {
+    float: left;
+    margin-top: 4px;
+    margin-left: 10px;
+}
+
+.group4 a {
+    float: left;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.searchright img {
+    float: left;
+    margin-top: 12px;
+    margin-left: 8px;
+    height: 20px;
+    width: 20px;
+}
+
+.searchright a {
+    float: left;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: grey;
+    margin-top: 12px;
+    margin-right: 14px;
+    margin-left: 2px;
+    text-decoration: none;
+}
